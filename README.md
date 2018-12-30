@@ -24,5 +24,5 @@ Loss and validation loss.
 ![train result](train.png?raw=true "train result")
 
 ## evaluation result
-Prediction of linear function.
+Prediction of linear function.  
 ![evaluation result](eval.png?raw=true "evaluation result")
