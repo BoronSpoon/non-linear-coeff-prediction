@@ -1,22 +1,20 @@
-# linear_functions_prediction
+# nonlinear_functions_coefficients_prediction
 
 ## model summary
 <pre>
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
-dense (Dense)                (None, 100)               200       
+dense (Dense)                (None, 100)               20100     
 _________________________________________________________________
 dense_1 (Dense)              (None, 100)               10100     
 _________________________________________________________________
 dense_2 (Dense)              (None, 100)               10100     
 _________________________________________________________________
-dense_3 (Dense)              (None, 100)               10100     
-_________________________________________________________________
-dense_4 (Dense)              (None, 1)                 101       
+dense_3 (Dense)              (None, 3)                 303       
 =================================================================
-Total params: 30,601
-Trainable params: 30,601
+Total params: 40,603
+Trainable params: 40,603
 Non-trainable params: 0
 _________________________________________________________________
 </pre>
@@ -26,5 +24,5 @@ Loss and validation loss.
 ![train result](train.png?raw=true "train result")
 
 ## evaluation result
-Prediction of linear function. Seems that the sigmoid function is not suitable for linear functions.   
+Prediction of linear function.
 ![evaluation result](eval.png?raw=true "evaluation result")
